@@ -1,0 +1,15 @@
+{
+  "id": "s3cfg",
+  "s3_access_key": {
+    "encrypted_data": "DXLsRG39pkx9WKEd+Bj7SeVKu76B9C3v9KZ/mLfpADv0nAjI5ScHpoCQkM2a\nRO/A\n",
+    "iv": "u494/ef8NVmYg7Vo/8dqRA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "s3_secret_key": {
+    "encrypted_data": "w9Rp/eQ8dC96SpGWgFO0tGsDYLVI3Qr+NbcdpIIjoQUzNABT9PnhLKmtxUak\nShd0\n",
+    "iv": "0hxTKDOZr6nHyQQCDf5eIw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
