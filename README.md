@@ -1,6 +1,6 @@
 #s3cmdng-cookbook
 
-An improved cookbook to manage s3cmd.  I borrowed from the `amazon_s3cmd` cookbook.
+An improved "next gen" cookbook to manage s3cmd.  I borrowed from the `amazon_s3cmd` cookbook.
 
 This cookbook does not allow you to specify an encrypted data bag secret, instead relying on the configured secret.  (`Chef::Config[:encrypted_data_bag_secret]`)
 
