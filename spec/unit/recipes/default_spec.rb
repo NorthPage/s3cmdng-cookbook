@@ -9,8 +9,8 @@ describe 's3cmdng::default' do
   end
   
   platforms = {
-    'centos' => ['6.5'],
-    'ubuntu' => ['12.04', '14.04']
+    'centos' => ['6.6'],
+    'ubuntu' => ['14.04']
   }
 
   platform_pkgs = {
@@ -23,7 +23,7 @@ describe 's3cmdng::default' do
 
       context "on #{platform.capitalize} #{version}" do
         let (:chef_run) do
-          ChefSpec::Runner.new(log_level: :warn, platform: platform, version: version) do |node|
+          ChefSpec::SoloRunner.new(log_level: :error, platform: platform, version: version) do |node|
             # Set additional attributes here
             node.set['etc']['passwd']['root'] = { dir: '/root' }
           end.converge(described_recipe) 
