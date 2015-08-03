@@ -9,7 +9,7 @@ describe 's3cmdng::default' do
   end
   
   platforms = {
-    'centos' => ['6.6'],
+    'centos' => ['6.6', '7.0'],
     'ubuntu' => ['14.04']
   }
 
